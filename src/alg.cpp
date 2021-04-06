@@ -8,7 +8,6 @@ int countPairs1(int *arr, int len, int value) {
   }
   return cout;
 }
-
 int countPairs2(int *arr, int len, int value) {
   int cout = 0, left = 0, right = len, mid;
   while (left < right - 1) {
@@ -27,7 +26,6 @@ int countPairs2(int *arr, int len, int value) {
   }
   return cout;
 }
-
 int countPairs3(int *arr, int len, int value) {
   int left = 0, right = len, mid;
   while (left < right - 1) {
